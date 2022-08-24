@@ -6,19 +6,16 @@ function scuberGreetingForFeet(distance){
   else if(distance <2500){
   return 'I will gladly take your thirty bucks.';
   }
-  else if(distance >2500){
-    return 'No can do.' ;
-
+  else if(distance >2500){ 
+  return 'No can do.' ;
 }
-
 }
-
 function ternaryCheckCity(city){
-  // Write your code here!
-  return city ==='NYC'?'Ok, sounds good.':'No go.';
+  return city==="NYC"?'Ok, sounds good.':"No go.";
+  
 }
-
 function switchOnCharmFromTip(tip){
+
   // Write your code here!
   switch(tip) {
     case 'generous':
@@ -32,3 +29,6 @@ function switchOnCharmFromTip(tip){
       break;
   }
 }
+
+
+  // Write your code here!
